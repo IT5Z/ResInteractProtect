@@ -1,0 +1,19 @@
+name: ResInteractProtect
+main: com.it5z.resinteractprotect.ResInteractProtect
+version: 0.0.1
+description: 领地交互保护。
+author: Android
+website: http://android.it5z.com/
+prefix: ResInteractProtect
+softdepend: [Residence]
+commands:
+  resinteractprotect:
+    description: ResInteractProtect主指令
+    aliases: [rip]
+    usage: /<command> help
+    permission: resinteractprotect.command
+    permission-message: §c你没有权限使用ResInteractProtect主指令!
+permissions:
+  resinteractprotect.command:
+    description: 给玩家使用使用ResInteractProtect主命令的权限
+    default: op
